@@ -1,1 +1,2 @@
 # fcc-portfolio
+A personal portfolio made for FreeCodeCamp's Responsive Web Design curriculum. Contains links to my other projects made for the same course, incluing a tribute page (English and Japanese versions), a survey form, a product landing page, and a Japanese language tutorial/technical documentation page.

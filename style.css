@@ -1,0 +1,66 @@
+/* CSS reset */
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Navbar styles */
+
+#navbar {
+    /*position: fixed;*/
+    height: 1.5rem;
+    width: 100%;
+    background-color: blue;
+    padding: 1rem;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5rem;
+    margin-right: 2rem;
+}
+
+#navbar li {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Welcome Section styles */
+
+h1, h2, h3 {
+    color: black;
+}
+
+#welcome-section {
+    margin-top: 2000px;
+    padding: 200px;
+    background-color: maroon;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-message h1 {
+    font-size: 3rem;
+    color: black;
+}
+
+#welcome-message h2 {
+    font-size: 2.5em;
+    color: black;
+}

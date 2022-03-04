@@ -16,6 +16,17 @@ html {
 
 }
 
+/* Common styles */
+
+a {
+    text-decoration: none;
+    color: #e7eaf6;
+}
+
+a:visited {
+    color: #e7eaf6;
+}
+
 /* Navbar styles */
 
 #navbar {
@@ -24,13 +35,14 @@ html {
     width: 100%;
     background-color: #113f67;
     padding: 1.5rem;
+
 }
 
 #navbar ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 1.5rem;
+    gap: 2.5rem;
     margin-right: 2.5rem;
 }
 
@@ -40,10 +52,6 @@ html {
     font-weight: 600;
 }
 
-#navbar a {
-    color: white;
-    text-decoration: none;
-}
 
 /* Welcome Section styles */
 
@@ -72,11 +80,11 @@ html {
     text-shadow: 2px 1px 1px white;
 }
 
-/* Projects Section Styles: Fix grids and items! */
+/* Projects Section Styles */
 
 #projects {
     background-color: #a2a8d3;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 #projects h2 {
@@ -84,6 +92,7 @@ html {
     font-size: 2.5rem;
     text-shadow: 2px 1px ppx black;
     margin-bottom: 2rem;
+    font-weight: bold;
 }
 
 .grid-container {
@@ -93,41 +102,26 @@ html {
     justify-content: space-between;
 }
 
-/*@media (max-width: 800px) {
-
-    #projects {
-        padding: 2em 1em;
-    }
-
-    .grid-container {
-        grid-template-columns: 80%;
-    }
-
-*/
-
 .project-tile {
-    border-radius: 2px;
+    text-align: center;
+    background-color: #113f67;
+    color: #e7eaf6;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
 }
 
 img {
     width: 100%;
     height: auto;
-    border: 2px solid #113f67;
+    margin-bottom: 1rem;
 }
 
 
-
-.project-link {
-    background-color: #113f67;
-    padding-bottom: 1rem;
-    width: inherit;
-    text-decoration: none;
-    text-align: center;
-    color: #e7eaf6;
-}
-
-.project-link:visited {
-    color: #e7eaf6;
+@media (max-width: 1200px) {
+    .grid-container {
+        grid-template-columns: 80%;
+        justify-content: center;
+    }
 }
 
 /* Contact Section */
@@ -150,10 +144,15 @@ img {
     text-decoration: none;
     padding: 1rem;
     font-size: 1.5rem;
+    display: inline-block;
 }
 
 #profile-link:visited {
     color: black;
+}
+
+#profile-link:hover {
+    transform: translateY(-10px);
 }
 
 i {

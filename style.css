@@ -102,18 +102,32 @@ a:visited {
     justify-content: space-between;
 }
 
-.project-tile {
-    text-align: center;
-    background-color: #113f67;
-    color: #e7eaf6;
-    font-size: 1.2rem;
-    padding-bottom: 2rem;
-}
-
 img {
     width: 100%;
     height: auto;
-    margin-bottom: 1rem;
+}
+
+.project-caption {
+    background-color: #113f67;
+    color: #e7eaf6;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.project-caption h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.project-caption p {
+    font-weight: 100;
+    font-size: 1rem;
+    font-style: italic;
+    width: 75%;
 }
 
 

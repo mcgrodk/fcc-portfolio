@@ -105,7 +105,7 @@ html {
 
 */
 
-.grid-item {
+.project-tile {
     border-radius: 2px;
 }
 
@@ -144,7 +144,7 @@ img {
     margin-bottom: 2rem;
 }
 
-#contact a {
+#profile-link {
     color: black;
     font-weight: 600;
     text-decoration: none;
@@ -152,7 +152,7 @@ img {
     font-size: 1.5rem;
 }
 
-#contact a:visited {
+#profile-link:visited {
     color: black;
 }
 

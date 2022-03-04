@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
 
 /* CSS reset */
 * {
@@ -13,7 +14,6 @@
 html {
     scroll-behavior: smooth;
     font-family: "League Spartan", sans-serif;
-
 }
 
 /* Common styles */
@@ -50,6 +50,10 @@ a:visited {
     list-style-type: none;
     font-size: 1.25rem;
     font-weight: 600;
+}
+
+#navbar a:hover {
+    color: #C83200;
 }
 
 
@@ -90,7 +94,6 @@ a:visited {
 #projects h2 {
     text-align: center;
     font-size: 2.5rem;
-    text-shadow: 2px 1px ppx black;
     margin-bottom: 2rem;
     font-weight: bold;
 }
@@ -128,6 +131,12 @@ img {
     font-size: 1rem;
     font-style: italic;
     width: 75%;
+    line-height: 1.2rem; 
+}
+
+.jp-text {
+    font-family: "Sawarabi Mincho", "League Spartan", sans-serif;
+    font-size: 1.4rem;
 }
 
 
